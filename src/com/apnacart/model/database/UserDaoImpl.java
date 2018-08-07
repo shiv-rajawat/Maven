@@ -11,7 +11,7 @@ public class UserDaoImpl implements UserDao {
 	public static UserPojo userObj = new UserPojo();
 	public void connect() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ShoppingApplication", "root", "smrajawat");		
+        con = DriverManager.getConnection("jdbc:mysql://18.222.178.33:3306/ShoppingApplication", "root", "mysql");		
 	}
 	
 	public void registerUser(UserPojo userObj) throws ClassNotFoundException, SQLException {
