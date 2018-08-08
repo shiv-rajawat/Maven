@@ -30,7 +30,8 @@
 
 
 	<h1> Have a Good Day </h1>
-	<br><br>
+	
+
 	
 	
 	<c:forEach items="${productsList}" var="product">
