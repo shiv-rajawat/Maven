@@ -31,9 +31,6 @@
 
 	
 	
-	<h3 style= color:blue>Beware of Dogs!!</h3>
-	<br><br>
-	
 	
 	<c:forEach items="${productsList}" var="product">
 	<form action="ProductServlet" method="post">
