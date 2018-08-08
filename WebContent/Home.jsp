@@ -30,7 +30,7 @@
 
 
 	
-	<h2 style= color:blue>Under Construction</h2><br>
+	
 	<h3 style= color:blue>Beware of Dogs!!</h3>
 	<br><br>
 	
