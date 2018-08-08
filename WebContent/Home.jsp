@@ -29,9 +29,7 @@
 	%>
 
 
-	<h1 style= color:blue>HACKED</h1>
-	<h2 style= color:blue>Under Construction</h2><br>
-	<h3 style= color:blue>Beware of Dogs!!</h3>
+	<h1> Have a Good Day </h1>
 	<br><br>
 	
 	
