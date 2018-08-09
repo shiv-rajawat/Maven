@@ -23,7 +23,7 @@ public class ProductServlet extends HttpServlet {
 	}
 
 	
-	protected qqq doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		ProductService productServiceObj = new ProductService();
 		ArrayList<ProductPojo> productsList = new ArrayList<ProductPojo>();
 		
