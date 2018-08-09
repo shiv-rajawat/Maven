@@ -29,8 +29,6 @@
 	%>
 
 
-	<h1> Have a Good Day </h1>
-	
 
 	
 	
