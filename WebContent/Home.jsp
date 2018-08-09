@@ -30,6 +30,7 @@
 
 
 
+	<h1>Welcome!</h1>
 	
 	
 	<c:forEach items="${productsList}" var="product">
