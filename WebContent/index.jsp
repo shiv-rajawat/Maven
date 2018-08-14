@@ -8,6 +8,7 @@
 </head>
 <body>
 <h2>Welcome to Apna Cart. You are valuable to us.</h2>
+    <h2> Hello World </h1>
 <h4 style="color:blue;"><a href = "Login.jsp">Already our member? Click here to login.</a><br><br></h4>
 <h4 style="color:blue;"><a href = "Register.jsp">Not our member, but wanna be? Click here to Register.</a></h4>
 
