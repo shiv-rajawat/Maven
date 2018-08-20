@@ -52,7 +52,7 @@ public class ProductDaoImpl implements ProductDao {
 	@Override
 	public void updateProductTable(ProductPojo productPojo) throws SQLException {
 					
-		String retrieveQuery = "Select quantity from productdetails where productId = ?;";
+		String retrieveQuery = "Select quantity from ProductDetails where productId = ?;";
 		PreparedStatement preparedStatement = con.prepareStatement(retrieveQuery);
 		preparedStatement.setInt(1,productPojo.getProductId());
 		ResultSet resultSet = preparedStatement.executeQuery();
