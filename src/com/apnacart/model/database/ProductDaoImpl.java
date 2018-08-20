@@ -49,7 +49,7 @@ public class ProductDaoImpl implements ProductDao {
 		
 	}
 
-	@Override
+	
 	public void updateProductTable(ProductPojo productPojo) throws SQLException {
 					
 		String retrieveQuery = "Select quantity from ProductDetails where productId = ?;";
