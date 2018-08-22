@@ -14,7 +14,7 @@ public class ProductDaoImpl implements ProductDao {
 	Connection con;
 	public void connect() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
-        con = DriverManager.getConnection("jdbc:mysql://localhost:3306/ShoppingApplication", "root", "root");		
+        con = DriverManager.getConnection("jdbc:mysql://18.204.212.7:3306/ShoppingApplication", "root", "root");		
 	}
 	
 	public ArrayList<ProductPojo> fetchProductsFromDb() throws SQLException, ClassNotFoundException {
