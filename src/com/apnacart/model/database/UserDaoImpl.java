@@ -15,7 +15,7 @@ public class UserDaoImpl implements UserDao {
 	}
 	
 	public void registerUser(UserPojo userObj) throws ClassNotFoundException, SQLException {
-		String insertStatement = "insert into UserDetails (UserName,Password) values (?,?);";
+		String insertStatement = "insert into UserDetails (username,password) values (?,?);";
 		PreparedStatement preparedStatement = con.prepareStatement(insertStatement);
 		preparedStatement.setString(1, userObj.getName());
 		preparedStatement.setString(2, userObj.getPassword());
